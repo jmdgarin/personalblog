@@ -1,0 +1,385 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family:roboto;
+}
+h1{
+    color:white;
+}
+
+main{
+width: 100vw;
+height: 100vh;
+background-color: white;
+}
+
+.navbar-fixed{
+    position:fixed;
+     background-color: #666666;
+    top: 0;
+    width: 100%;
+  }
+nav {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+    background-color: black;   
+}
+
+.nav-links ul li a:hover{
+    background-color: rgb(62, 62, 73);
+    box-shadow: 0 0 10px white  ;
+    
+}
+
+.nav-links ul{
+    display: flex;
+    list-style-type: none;
+    margin-right: 50px; 
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: white;
+    margin: 100px 14px;
+}
+
+.main-page{
+    margin-top: 100px;
+    padding: 3%;
+}
+.row{
+    display: flex;
+}
+.row p{
+color:black;
+}
+.col-1{
+    flex-basis: 50%;
+}
+
+.col-1 h1{
+ margin-top: 200px;
+ color: black;
+ font-size: 60px;
+}
+
+.col-1 h1 span{
+    color: rgb(21, 21, 110);
+    font-size: 50px;
+}
+.col-1 p{
+    font-size: 30px;
+}
+.col-2 img{
+    width: 500px;
+    margin-top: 1000 px;
+    margin-left: 200px;
+}
+
+.socials{
+    display: flex;
+}
+.socials p{
+    margin: 50px 14px;
+}
+
+.socials svg{
+    width: 35px;
+    margin: 20px 10px;
+    cursor: pointer;
+}
+
+footer {  
+    padding: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+
+footer h3{
+margin-bottom: 15px;
+}
+.footer-line{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    
+}
+
+.contact {
+    width: 100%;
+    height: 100vh;
+    padding-top: 2px;
+}
+.contact h1{
+    margin: 50px 0;
+    color: black;
+
+}
+
+.contact-container{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+
+.contact-container form{
+    display: flex;
+    flex-direction: column;
+    padding: 15px; 
+    border-radius: 10px;
+    gap: 10px;
+    width: 400px;
+    align-items:center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.contact-container form input{
+
+    outline: none;
+    padding: 10px;
+    border-radius: 8px;
+    width: 250px;
+}
+.contact-container form textarea{
+    padding: 10px;
+    outline: none;
+    width: 250px;
+    color: black;
+}
+
+.contact-container form button{
+    width: 100px;
+    border: none;
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: 1px solid black;
+    font-weight: bold;
+    border-radius: 8px ;
+
+
+}
+
+
+section{
+    margin-top: 500px;
+}
+
+/*about section*/
+#about{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#pic{
+    display: flex;
+}
+
+#about h1{
+    color: black;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#about ul li{
+   list-style-type: none;
+}
+#about h4{
+table-layout: auto;
+
+}
+#about table{
+    display:inline-block;
+    justify-content: center;
+   justify-self:center;
+    border: 1px solid black;
+}
+#about table tr th{
+    border: 1px solid black;
+    width: 200px;
+height: 50px;
+    text-align: center;   
+}
+#about table tr td{width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;   
+    text-decoration: black;
+} 
+
+#pic img{
+    width: 300px;
+    height: 350px;
+}
+
+/*gallery section*/
+#gallery{
+    font-size: 50px;
+    box-sizing: border-box;
+    padding: 100px;
+    background-color: rgb(54, 52, 52);
+}
+
+#gallery h1{
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
+}
+#gallery img{
+    width: 200px;
+    height: 350px;
+
+}
+
+/*blog section*/
+
+#blog{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 100px;
+}
+
+#blog h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    box-sizing: border-box;
+    padding: 10px;
+    flex-direction: column;
+    font-size: 60px;
+}
+
+#blog h2{
+    padding-bottom: 50px;
+}
+
+#blog img{
+    margin-top: 50px;
+    padding: 10px;
+    width: 500px;
+    height: 500px;
+    box-sizing: border-box;
+}
+.spinner {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 50%;
+    margin-left: -75px;
+  }
+  
+  .spinner span {
+    position: absolute;
+    top: 50%;
+    left: var(--left);
+    width: 35px;
+    height: 7px;
+    background: #ffff;
+    -webkit-animation: dominos 1s ease infinite;
+            animation: dominos 1s ease infinite;
+    -webkit-box-shadow: 2px 2px 3px 0px black;
+            box-shadow: 2px 2px 3px 0px black;
+  }
+  
+  .spinner span:nth-child(1) {
+    --left: 80px;
+    -webkit-animation-delay: 0.125s;
+            animation-delay: 0.125s;
+  }
+  
+  .spinner span:nth-child(2) {
+    --left: 70px;
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s;
+  }
+  
+  .spinner span:nth-child(3) {
+    left: 60px;
+    -webkit-animation-delay: 0.425s;
+            animation-delay: 0.425s;
+  }
+  
+  .spinner span:nth-child(4) {
+    -webkit-animation-delay: 0.54s;
+            animation-delay: 0.54s;
+    left: 50px;
+  }
+  
+  .spinner span:nth-child(5) {
+    -webkit-animation-delay: 0.665s;
+            animation-delay: 0.665s;
+    left: 40px;
+  }
+  
+  .spinner span:nth-child(6) {
+    -webkit-animation-delay: 0.79s;
+            animation-delay: 0.79s;
+    left: 30px;
+  }
+  
+  .spinner span:nth-child(7) {
+    -webkit-animation-delay: 0.915s;
+            animation-delay: 0.915s;
+    left: 20px;
+  }
+  
+  .spinner span:nth-child(8) {
+    left: 10px;
+  }
+  
+  @-webkit-keyframes dominos {
+    50% {
+      opacity: 0.7;
+    }
+  
+    75% {
+      -webkit-transform: rotate(90deg);
+      transform: rotate(90deg);
+    }
+  
+    80% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes dominos {
+    50% {
+      opacity: 0.7;
+    }
+  
+    75% {
+      -webkit-transform: rotate(90deg);
+      transform: rotate(90deg);
+    }
+  
+    80% {
+      opacity: 1;
+    }
+  }
+  
